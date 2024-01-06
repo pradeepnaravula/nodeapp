@@ -19,3 +19,6 @@ spec:
         image: thetips4you/nodeapp:latest
         ports:
         - containerPort: 3000
+        imagePullPolicy: Always
+  strategy:
+    type: RollingUpdate
