@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: thetips4you/nodeapp:latest
+        image: us-central1-docker.pkg.dev/original-nation-408710/docker/node:latest
         ports:
         - containerPort: 3000
         imagePullPolicy: Always
